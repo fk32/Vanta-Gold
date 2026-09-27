@@ -1,0 +1,12 @@
+import { kv } from '@vercel/kv'
+export async function POST(req) {
+  try {
+    const { guildId, guildName } = await req.json()
+    let leagues = await kv.get('leagues') || []
+    if(!leagues.find(l=>l.guildId===guildId)){
+      leagues.push({ id: guildId, guildId, name: guildName, teamCount: 0, createdAt: Date.now() })
+      await kv.set('leagues', leagues)
+    }
+    return Response.json({ success: true })
+  } catch(e) { return Response.json({ error: e.message }, {status:500}) }
+}
