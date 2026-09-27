@@ -20,7 +20,7 @@ export default function Home() {
         <p style={{color:'#666', fontFamily:'Arial', marginTop:'15px', letterSpacing:'2px', fontSize:'12px'}}>DISCORD BOT • LEAGUE SYSTEM • LIVE RANKING</p>
 
         <div style={{marginTop:'40px', display:'flex', gap:'15px', flexWrap:'wrap', justifyContent:'center'}}>
-          <a href="https://discord.gg/TUO_INVITO" target="_blank" style={{background:'#FFD700', color:'#000', padding:'16px 32px', borderRadius:'50px', textDecoration:'none', fontWeight:900, boxShadow:'0 0 20px #FFD700'}}>JOIN DISCORD</a>
+          <a href="https://discord.gg/rW2eEyjJS" target="_blank" style={{background:'#FFD700', color:'#000', padding:'16px 32px', borderRadius:'50px', textDecoration:'none', fontWeight:900, boxShadow:'0 0 20px #FFD700'}}>JOIN DISCORD</a>
           <a href="#leaderboard" style={{background:'transparent', color:'#FFD700', border:'2px solid #FFD700', padding:'16px 32px', borderRadius:'50px', textDecoration:'none', fontWeight:900}}>LIVE LEAGUES</a>
         </div>
 
@@ -64,7 +64,7 @@ export default function Home() {
         <div style={{background:'radial-gradient(circle,#1a1a00,#050505)', border:'2px solid #FFD700', borderRadius:'25px', padding:'40px', textAlign:'center'}}>
           <h2 style={{color:'white', fontSize:'24px', letterSpacing:'4px', margin:0}}>READY TO JOIN?</h2>
           <p style={{color:'#888', fontFamily:'Arial', margin:'15px 0 30px'}}>Entra nel Discord, registra il tuo team con /addteam e scala la classifica.</p>
-          <a href="https://discord.gg/TUO_INVITO" target="_blank" style={{background:'#FFD700', color:'#000', padding:'18px 40px', borderRadius:'50px', textDecoration:'none', fontWeight:900, fontSize:'16px', display:'inline-block'}}>ENTRA IN VANTA GOLD →</a>
+          <a href="https://discord.gg/rW2eEyjJS" target="_blank" style={{background:'#FFD700', color:'#000', padding:'18px 40px', borderRadius:'50px', textDecoration:'none', fontWeight:900, fontSize:'16px', display:'inline-block'}}>ENTRA IN VANTA GOLD →</a>
           <p style={{color:'#333', fontSize:'10px', marginTop:'20px', letterSpacing:'3px'}}>vanta-gold.vercel.app • BOT-HOSTING ONLINE • VERIFIED</p>
         </div>
 
