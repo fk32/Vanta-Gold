@@ -1,0 +1,7 @@
+import { kv } from '@vercel/kv'
+export async function GET() {
+  try {
+    const leagues = await kv.get('leagues') || []
+    return Response.json(leagues)
+  } catch { return Response.json([]) }
+}
